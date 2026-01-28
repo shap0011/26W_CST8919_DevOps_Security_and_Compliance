@@ -31,6 +31,16 @@ Complete the lab using both GUI and CLI workflows.  You can choose either AWS or
 4. Locate:
     - One Create / Update / Delete action on any resource
 
+*Access to Microsoft Entra ID is restricted*
+![Access to Microsoft Entra ID is restricted](./screenshots/1_access_to_Microsoft_Entra_ID_is%20restricted.png)
+
+Access to Microsoft Entra ID was restricted due to role-based access control. This demonstrates how identity management is protected and limited to privileged roles in Azure.
+
+*Azure Activity Log showing the creation of a resource group, including caller, timestamp, and affected resource.*
+![Azure Activity Log showing the creation of a resource group, including caller, timestamp, and affected resource.](./screenshots/2_Azure_ActivityLog_RG_WriteOperation.png)
+
+An administrative action was recorded in the Azure Activity Log when a new resource group was created. The log shows the caller, timestamp, and affected resource, demonstrating Azure’s audit logging and accountability.
+
 ---
 
 ### AWS CLI
